@@ -59,7 +59,7 @@ const EditContact = ({ contacts, updateContact }) => {
     <div className="container">
       <div className="row d-flex flex-column">
         <button
-          className="btn btn-dark ml-auto my-5"
+          className="btn btn-secondary ml-auto my-5"
           onClick={() => history.push("/")}
         >
           Go back
